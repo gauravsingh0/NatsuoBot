@@ -10,7 +10,6 @@ from NatsuoBot import dispatcher
 from NatsuoBot.modules.users import get_user_id
 
 from NatsuoBot.modules.helper_funcs.alternate import send_message
-from NatsuoBot.modules.helper_funcs.readable_time import get_readable_time
 
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8
