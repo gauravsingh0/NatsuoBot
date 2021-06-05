@@ -4,10 +4,7 @@ from datetime import datetime
 
 
 from NatsuoBot import dispatcher
-from NatsuoBot.modules.disable import (
-    DisableAbleCommandHandler,
-    DisableAbleMessageHandler,
-)
+
 from NatsuoBot.modules.sql import afk_sql as sql
 from NatsuoBot.modules.users import get_user_id
 from telegram import MessageEntity, Update
