@@ -7,7 +7,6 @@ from telegram.error import BadRequest
 from telegram.ext import Filters, MessageHandler, run_async
 
 from NatsuoBot import dispatcher
-from NatsuoBot.modules.sql.afk_redis import start_afk, end_afk, is_user_afk, afk_reason
 from NatsuoBot.modules.users import get_user_id
 
 from NatsuoBot.modules.helper_funcs.alternate import send_message
