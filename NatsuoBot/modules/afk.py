@@ -1,7 +1,7 @@
 import random
 import html
 from datetime import datetime
-import humanize
+
 
 from NatsuoBot import dispatcher
 from NatsuoBot.modules.disable import (
