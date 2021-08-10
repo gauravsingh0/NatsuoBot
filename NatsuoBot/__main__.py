@@ -29,13 +29,13 @@ You can find my list of available commands with :
 """
 
 
-BOT_IMG = "https://telegra.ph/file/63311895440f96c5bd9f0.jpg"
+BOT_IMG = "https://telegra.ph/file/ed1909261c2cd97c6169d.jpg"
 
 
 
 
 HELP_STRINGS = """
-*Helpful Commands :* [.](https://telegra.ph/file/63311895440f96c5bd9f0.jpg)
+*Helpful Commands :* [🙂](https://telegra.ph/file/ed1909261c2cd97c6169d.jpg)
 ✧ /start: Starts me! You've probably already used this.
 ✧ /help: Sends this message; I'll tell you more about myself!
 ✧ /settings: 
@@ -150,16 +150,16 @@ def start(update, context):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="Add Natsuo to your group",
+                            text="ADD ME TO YOUR GROUP ",
                             url="t.me/{}?startgroup=true".format(context.bot.username))
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Support Chat ",
-                            url="https://t.me/NatsuoSupport"),
+                            text="SUPPORT ",
+                            url="https://t.me/yone_support_official"),
                         InlineKeyboardButton(
-                            text="Updates ",
-                            url="https://t.me/NatsuoUpdate")
+                            text="UPDATES ",
+                            url="https://t.me/grb_network")
                     ],
                     [
                         InlineKeyboardButton(
